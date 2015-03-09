@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="View,Edit and Delete User"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="74.831">
+  <properties />
+  
+  
+            <testcase name="View_User" time="74.831" classname="qhcloud.selenium.TestSuite.ViewUser" />
+      
+</testsuite>

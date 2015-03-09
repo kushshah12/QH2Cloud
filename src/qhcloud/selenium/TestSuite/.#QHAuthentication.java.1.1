@@ -1,0 +1,48 @@
+package qhcloud.selenium.TestSuite;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+
+//import Trial.LogIn;
+
+
+	public class QHAuthentication {
+		 
+		public boolean isLogin(String Url, String username, String password, WebDriver driver) throws Exception  {
+			  
+		    driver.get(Url);
+		    
+		    Thread.sleep(4000);
+		    
+		    driver.findElement(By.id("loginUsername")).clear();
+		    WebElement Username = driver.findElement(By.id("loginUsername"));
+		    Username.sendKeys(username);
+		    
+		    driver.findElement(By.id("password")).clear();		    
+		    WebElement Password = driver.findElement(By.id("password"));
+		    Password.sendKeys(password);
+		    
+		    WebElement loginbutton = driver.findElement(By.id("buttonlogin"));
+		    loginbutton.click();
+		    
+		    Thread.sleep(3000);
+		    
+		    String Pagetitle = driver.getTitle().trim(); 
+		    
+		 //Handle  tanent selection page 
+		    
+		    if(Pagetitle.equalsIgnoreCase("Quick Heal Cloud - Tenant Selection")){
+		    	driver.findElement(By.className("tenant-name")).click(); //TODO : handle multiple tenant case
+		    }
+		    
+		    return true;
+		}
+	}
+								 					  
+		
+	
+	

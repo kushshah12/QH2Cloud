@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConveyOTP"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.032">
+  <properties />
+  
+  
+            <testcase name="conveyotp" time="7.032" classname="qhcloud.selenium.TestSuite.ConveyOTP" />
+      
+</testsuite>

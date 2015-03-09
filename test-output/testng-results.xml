@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="C:\QHCLOUD\screenshots\CreateTenant.jpg"><p align="left">Screenshot at Mon Mar 09 14:36:02 IST 2015</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><img width="1024" src="C:\QHCLOUD\screenshots\CreateTenant.jpg" alt="screenshot at Mon Mar 09 14:36:02 IST 2015"/></p></a><br />]]>
+    </line>
+    <line>
+      <![CDATA[https://192.168.1.38:8443/SeqriteCloud/cloud_service?requestData={"action" : "registerTenant","name" : "tenant2","reference" : "CVS","contactNumber" : "%2B9823445566","raName" : "tenanttwo","raEmail" : "test.mail.qh2@gmail.com","raMobileNumber" : "%2B09422372446","cloudLicenseKey" : "11331234114353100000","duration" : 60,"totalProducts" : 10,"productsInfo" : [{"productKey" : "137100121ghavbnbnm55","type" : 1,"version" : "1.4","expiryDate" : 1442999736000,"count" : 30}],"language": 1,"copyType":1}
+
+Result={"allErrorCodes":[{"errorCode":18},{"errorCode":8}]}]]>
+    </line>
+    <line>
+      <![CDATA[
+Email verification is not done because Action was not successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="QH2_CLoud_Smoke_test" duration-ms="9333" started-at="2015-03-09T09:05:55Z" finished-at="2015-03-09T09:06:04Z">
+    <groups>
+    </groups>
+    <test name="Create Tenant" duration-ms="9333" started-at="2015-03-09T09:05:55Z" finished-at="2015-03-09T09:06:04Z">
+      <class name="qhcloud.selenium.TestSuite.CreateTenant">
+        <test-method status="PASS" signature="Createtenant()[pri:0, instance:qhcloud.selenium.TestSuite.CreateTenant@1e8f46a6]" name="Createtenant" duration-ms="9311" started-at="2015-03-09T14:35:55Z" finished-at="2015-03-09T14:36:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\QHCLOUD\screenshots\CreateTenant.jpg"><p align="left">Screenshot at Mon Mar 09 14:36:02 IST 2015</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><img width="1024" src="C:\QHCLOUD\screenshots\CreateTenant.jpg" alt="screenshot at Mon Mar 09 14:36:02 IST 2015"/></p></a><br />]]>
+            </line>
+            <line>
+              <![CDATA[https://192.168.1.38:8443/SeqriteCloud/cloud_service?requestData={"action" : "registerTenant","name" : "tenant2","reference" : "CVS","contactNumber" : "%2B9823445566","raName" : "tenanttwo","raEmail" : "test.mail.qh2@gmail.com","raMobileNumber" : "%2B09422372446","cloudLicenseKey" : "11331234114353100000","duration" : 60,"totalProducts" : 10,"productsInfo" : [{"productKey" : "137100121ghavbnbnm55","type" : 1,"version" : "1.4","expiryDate" : 1442999736000,"count" : 30}],"language": 1,"copyType":1}
+
+Result={"allErrorCodes":[{"errorCode":18},{"errorCode":8}]}]]>
+            </line>
+            <line>
+              <![CDATA[
+Email verification is not done because Action was not successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Createtenant -->
+      </class> <!-- qhcloud.selenium.TestSuite.CreateTenant -->
+    </test> <!-- Create Tenant -->
+  </suite> <!-- QH2_CLoud_Smoke_test -->
+</testng-results>

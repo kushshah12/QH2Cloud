@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [QH2_CLoud_Smoke_test]" parallel="none">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Add User(failed)" parallel="none">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.AddUser">
+        <methods>
+          <include name="adduser"/>
+        </methods>
+      </class> <!-- qhcloud.selenium.TestSuite.AddUser -->
+    </classes>
+  </test> <!-- Add User(failed) -->
+</suite> <!-- Failed suite [QH2_CLoud_Smoke_test] -->

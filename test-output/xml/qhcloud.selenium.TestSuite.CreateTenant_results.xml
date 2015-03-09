@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Tenant"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.311">
+  <properties />
+  
+  
+            <testcase name="Createtenant" time="9.311" classname="qhcloud.selenium.TestSuite.CreateTenant" />
+      
+</testsuite>

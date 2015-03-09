@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Create Tenant(failed)" parallel="none">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.CreateTenant">
+        <methods>
+          <include name="Createtenant"/>
+        </methods>
+      </class> <!-- qhcloud.selenium.TestSuite.CreateTenant -->
+    </classes>
+  </test> <!-- Create Tenant(failed) -->
+  <test name="Add User(failed)" parallel="none">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.AddUser">
+        <methods>
+          <include name="adduser"/>
+        </methods>
+      </class> <!-- qhcloud.selenium.TestSuite.AddUser -->
+    </classes>
+  </test> <!-- Add User(failed) -->
+  <test name="View,Edit and Delete User(failed)" parallel="none">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.ViewUser">
+        <methods>
+          <include name="View_User"/>
+        </methods>
+      </class> <!-- qhcloud.selenium.TestSuite.ViewUser -->
+    </classes>
+  </test> <!-- View,Edit and Delete User(failed) -->
+</suite> <!-- Failed suite [Suite] -->

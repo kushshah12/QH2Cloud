@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Create Tenant">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.CreateTenant"/>
+    </classes>
+  </test>  
+  <test name="Add User">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.AddUser"/>
+    </classes>
+  </test> 
+  <test name="View,Edit and Delete User">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.ViewUser"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Product"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.649">
+  <properties />
+  
+  
+            <testcase name="addproduct" time="5.649" classname="qhcloud.selenium.TestSuite.AddProduct" />
+      
+</testsuite>

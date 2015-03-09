@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [QH2_Smoke_Test]">
+  <test name="Add_User(failed)">
+    <classes>
+      <class name="qhcloud.selenium.TestSuite.AddUser">
+        <methods>
+          <include name="adduser"/>
+        </methods>
+      </class> <!-- qhcloud.selenium.TestSuite.AddUser -->
+    </classes>
+  </test> <!-- Add_User(failed) -->
+</suite> <!-- Failed suite [QH2_Smoke_Test] -->
